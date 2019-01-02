@@ -1,0 +1,8 @@
+
+
+State 0 with rank 0 -> <c_B:0, a_A:0, x:0, bit0:1, bit1:1>
+	With successors : 1
+State 1 with rank 0 -> <c_B:1, a_A:0, x:1, bit0:1, bit1:1>
+	With successors : 1
+
+

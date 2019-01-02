@@ -1,0 +1,20 @@
+
+digraph A {
+    rankdir = LR;
+    overlap = false;
+    ratio = "compress";
+	6 [style="bold", width=0, height=0, fontsize=20, label="region = p1 (r4)\nc\nd\n[Goal #3]"];
+	1 [style="bold", width=0, height=0, fontsize=20, label="region = p4 (r1)\nc\nd\n[Goal #0]"];
+	2 [style="bold", width=0, height=0, fontsize=20, label="region = p2 (r3)\nc\nd\n[Goal #1]"];
+	3 [style="bold", width=0, height=0, fontsize=20, label="region = p3 (r2)\nc\nd\n[Goal #1]"];
+	4 [style="bold", width=0, height=0, fontsize=20, label="region = p2 (r3)\nc\nd\n[Goal #2]"];
+	5 [style="bold", width=0, height=0, fontsize=20, label="region = p3 (r2)\nc\nd\n[Goal #3]"];
+	0 [style="bold", width=0, height=0, fontsize=20, label="region = p4 (r1)\n!c\n!d\n[Goal #0]"];
+	6 -> 1 [style="bold", arrowsize=1.5, fontsize=20, label="!a_A\ng"];
+	1 -> 2 [style="bold", arrowsize=1.5, fontsize=20, label="!a_A\ng"];
+	2 -> 3 [style="bold", arrowsize=1.5, fontsize=20, label="!a_A\ng"];
+	3 -> 4 [style="bold", arrowsize=1.5, fontsize=20, label="!a_A\ng"];
+	4 -> 5 [style="bold", arrowsize=1.5, fontsize=20, label="!a_A\ng"];
+	5 -> 6 [style="bold", arrowsize=1.5, fontsize=20, label="!a_A\ng"];
+	0 -> 1 [style="bold", arrowsize=1.5, fontsize=20, label="!a_A\ng"];
+} 

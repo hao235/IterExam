@@ -1,0 +1,10 @@
+
+digraph A {
+    rankdir = LR;
+    overlap = false;
+    ratio = "compress";
+	1 [style="bold", width=0, height=0, fontsize=20, label="!a\nregion = p4 (r1)\nb\n[Goal #0]"];
+	0 [style="bold", width=0, height=0, fontsize=20, label="!a\nregion = p4 (r1)\n!b\n[Goal #0]"];
+	1 -> 1 [style="bold", arrowsize=1.5, fontsize=20, label="d_B\n!f"];
+	0 -> 1 [style="bold", arrowsize=1.5, fontsize=20, label="d_B\n!f"];
+} 
