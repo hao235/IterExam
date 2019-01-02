@@ -1,9 +1,3 @@
 This example is the same as the one in Section VI of our paper. 
 
-There are two robot, leader and follower.
-
-Leader will move back and forth betweem the porch and bedroom, and it is barred from entering living. Its formal specifications is in "leader.spec" and its synthesesed controller is in "leader.aut".
-
-Follower is asked to follow leader wherever it goes, and it is also barred from entering living. Its initial specification is in "follower_0.spec", which is unsynthesizable. By using information extraction from "leader.aut" and specification for follower, "follower_1.spec" can be obtained, and its synthesese controller is in "follower_1.aut".
-
-
+r_A, r_B and r_C are three robots performing tasks in a facility. Intuitively speaking, r_A is responsible for emergency patrols, and will keep records when r_B sends observed information. r_B will do the normal patrols, and it won’t appear if r_A is patrolling. And the only function of r_C is to assist r_B in patrolling. d_B means it is consistent with the action d in of r_B, so a_A and c_B is defined in similar way.
