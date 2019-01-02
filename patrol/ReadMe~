@@ -1,7 +1,0 @@
-There are two robot, leader and follower.
-
-Leader will move back and forth betweem the porch and bedroom, and it is barred from entering living. Its formal specifications is in "leader.spec" and its synthesesed controller is in "leader.aut".
-
-Follower is asked to follow leader wherever it goes, and it is also barred from entering living. Its initial specification is in "follower_0.spec", which is unsynthesizable. By using information extraction from "leader.aut" and specification for follower, "follower_1.spec" can be obtained, and its synthesese controller is in "follower_1.aut".
-
-
